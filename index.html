@@ -12,15 +12,17 @@
 <body>
 	<h1>HTML5 image capture from webcam to form INPUT</h1>
 
+	<h2>Live Preview</h2>
 	<video id="capturevideo" autoplay></video>
 
 	<!-- press here to take photo -->
 	<button id="shutterbutton">Shutter button</button>
 
-	<!--preview image captured from canvas-->
+	<!-- photo ready to send -->
+	<h2>Image result</h2>
 	<img id="capture_result" src="placeholder.jpg" />
 
-	<!-- form element with new image -->
+	<!-- form element with the same image -->
 	<input id="capture_input" type="text" autocomplete="off" />
 
 	<div id="errorMsg" style="background-color: #eee;">
